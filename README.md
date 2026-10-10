@@ -11,4 +11,5 @@ Repository bersama praktikum DevOps - Politeknik Negeri Batam.
 
 ## Daftar Skrip
 - setup.sh - menyiapkan lingkungan dan menjalankan smoke test
+- monitoring.sh memantau layanan secara berkala
 - healthcheck.sh - memeriksa status layanan. Default endpoint: http://127.0.0.1:5000/health (bisa diganti lewat argumen pertama). Exit code: 0 = UP, 2 = DOWN.
